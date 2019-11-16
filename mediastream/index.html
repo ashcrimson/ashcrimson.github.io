@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba Técnica</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+   
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    .navbar-toggler{
+      position: relative;
+      right: 600px;
+      margin-right: 0;
+    }
+
+    .navbar-brand{
+      position: relative;
+      left: 150px;
+    }
+
+    .bg-dark{
+      background-color: #000 !important;
+    }
+
+    .form-inline .form-control {
+      background-color: #000;
+    }
+
+    .page-footer {
+      color: #fff;
+    }
+
+    #youtube {
+      background-color: #333;
+      color: #fff;
+      padding: 30px;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/e30d7fd7ef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-collapse navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="images/VOD.png" alt="" style="width: 70%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          
+        </div>
+        <form class="form-inline">
+              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Buscar"
+                aria-label="Search">
+              <i class="fas fa-search" aria-hidden="true" style="color: #fff;"></i>
+            </form>
+      </nav>
+  <div id="youtube">
+      <div class="container">
+          <div class="embed-responsive embed-responsive-16by9 mb-4">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="row" style="margin:auto; ">
+              <div class="col-6">
+                <div class="d-flex">
+                  <div class="pr-5"><strong>CQC - </strong> Hace 1 día</div> 
+                  
+                </div>
+              </div>
+              <div class="col-6 m-6" style="float: right;">
+                <div class="d-flex">
+                  <div class="pr-5">Compartir</div> 
+                    <div class="pr-1">
+                      <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                      </a>
+                    </div> 
+                  <div class="pr-1">
+                      <a class="fb-ic">
+                          <i class="fab fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                      </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="margin:auto; text-align: left; ">
+              <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, delectus fugit nihil quo ratione totam, amet doloribus ipsam distinctio iure sequi ea quod est modi suscipit eos? Officia, eos consequatur?</p>
+            </div>
+      </div>
+    </div>
+  
+
+ <div class="container py-3">
+  <h2><b>Relacionados</b></h2>
+  <section class="regular slider mt-0" >
+   
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+    <div>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vlDzYIIOYmM"
+        allowfullscreen width="238" height="204">
+        </iframe>
+    </div>
+  </section>
+</div>
+  <!-- Footer -->
+<footer class="page-footer font-small cyan darken-3 bg-dark">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Grid row-->
+      <div class="row" >
+  
+        <!-- Grid column -->
+        <div class="col-md-8 py-4">
+            <img src="images/VOD.png" alt="" style="width: 200px; float: left; margin-right: 20px;">
+        
+            <div class="d-flex " >
+                <div class="pr-2"><strong>Contacto</strong> </div>
+                <div class="pr-2"><strong>T & C</strong> </div>
+                <div class="pr-2"><strong>Privacidad</strong> </div>
+                <div class="pr-2"><strong>FAQs</strong> </div>
+                <div class="pr-2"><strong>Cookies</strong> </div>
+                <div class="pr-2"><strong>Área Comercial</strong> </div>
+                <div class="pr-2"><strong>V 0.1</strong> </div>
+            </div>
+            <p>2019 &copy; OTT NEXT</p>
+
+        </div>
+        <div class="col-md-4 py-2 my-3" style="vertical-align: middle;">
+          <div class="mb-5 flex-center " style="vertical-align: middle; text-align: right;">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-3 mr-1 fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-3 mr-1 fa-2x"> </i>
+            </a>
+          
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-3 mr-1 fa-2x"> </i>
+            </a>
+
+            <a class="ins-ic">
+                <i class="fab fa-youtube fa-lg white-text mr-md-3 mr-1 fa-2x"></i>
+            </a>
+            
+          </div>
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+   
+  
+  </footer>
+  <!-- Footer -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 3
+      });
+     
+    });
+</script>
+
+</body>
+</html>
